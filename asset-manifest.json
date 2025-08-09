@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/finalproj/static/css/main.367e1be0.css",
+    "main.js": "/finalproj/static/js/main.41451efe.js",
+    "static/js/453.61759961.chunk.js": "/finalproj/static/js/453.61759961.chunk.js",
+    "static/media/Denice CV.png": "/finalproj/static/media/Denice CV.722ac5c3be3cf815bba9.png",
+    "static/media/ME.jpg": "/finalproj/static/media/ME.f2e469ea4637617f2610.jpg",
+    "index.html": "/finalproj/index.html",
+    "main.367e1be0.css.map": "/finalproj/static/css/main.367e1be0.css.map",
+    "main.41451efe.js.map": "/finalproj/static/js/main.41451efe.js.map",
+    "453.61759961.chunk.js.map": "/finalproj/static/js/453.61759961.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.367e1be0.css",
+    "static/js/main.41451efe.js"
+  ]
+}
