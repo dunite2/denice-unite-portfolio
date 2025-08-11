@@ -32,23 +32,11 @@ const Contacts = () => {
           <article className="contact__option">
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
-            <h5>denice.unite@email.com</h5>
-            <a href="mailto:denice.unite@email.com" target="_blank" rel='noreferrer'>Send a message</a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>Denice Unite</h5>
-            <a href="https://m.me/" target="_blank" rel='noreferrer'>Send a message</a>
-          </article>
-          <article className="contact__option">
-            <BsWhatsapp className='contact__option-icon'/>
-            <h4>WhatsApp</h4>
-            <h5>+1234567890</h5>
-            <a href="https://api.whatsapp.com/send?phone=+1234567890" target="_blank" rel='noreferrer'>Send a message</a>
+            <h5>deniceunite@icloud.com</h5>
+            <a href="mailto:deniceunite@icloud.com" target="_blank" rel='noreferrer'>Send an email</a>
           </article>
         </div>
-        {/* END OF CONTACT OPTIONS */}
+
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name' required />
           <input type="email" name='email' placeholder='Your Email' required />

@@ -1,49 +1,130 @@
-# Getting Started with Create React App
+# Denice Unite - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based personal portfolio website showcasing my skills, projects, and experience as a Full Stack Web Development student.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Responsive Design**: Works on desktop, tablet, and mobile devices
+- **Modern UI**: Clean, professional design with warm color palette
+- **Interactive Components**: Smooth navigation and animations
+- **Project Showcase**: Display of my development projects with links to GitHub repositories
+- **Contact Form**: Integrated contact functionality
+- **Downloadable CV**: Direct download link for my resume
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, HTML5, CSS3, JavaScript
+- **Icons**: React Icons
+- **Fonts**: Google Fonts (Merriweather, Open Sans)
+- **Deployment**: Docker, Nginx
+- **Version Control**: Git, GitHub
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Docker Instructions
 
-### `npm test`
+### Prerequisites
+- Docker installed on your system
+- Port 5575 available on your machine
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Building and Running the Container
 
-### `npm run build`
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/dunite2/finalproj.git
+   cd finalproj
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Build the Docker image:**
+   ```bash
+   docker build -t unite_denice_coding_assignment14 .
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Run the container:**
+   ```bash
+   docker run -d -p 5575:5575 --name unite_denice_coding_assignment14 unite_denice_coding_assignment14
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Access the application:**
+   Open your web browser and navigate to:
+   ```
+   http://localhost:5575
+   ```
 
-### `npm run eject`
+### Container Details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Container Name**: `unite_denice_coding_assignment14`
+- **Working Directory**: `/unite_denice_final_site`
+- **Port**: `5575`
+- **Web Server**: Nginx serving production React build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Stopping the Container
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To stop the running container:
+```bash
+docker stop unite_denice_coding_assignment14
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To remove the container:
+```bash
+docker rm unite_denice_coding_assignment14
+```
 
-## Learn More
+### Troubleshooting
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Port already in use**: Make sure port 5575 is not being used by another application
+- **Build fails**: Ensure you have a stable internet connection for downloading dependencies
+- **Container won't start**: Check Docker logs with `docker logs unite_denice_coding_assignment14`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Development
+
+To run the project in development mode:
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Start development server:**
+   ```bash
+   npm start
+   ```
+
+3. **Access at:**
+   ```
+   http://localhost:3000
+   ```
+
+## Project Structure
+
+```
+finalproj/
+├── public/                 # Public assets
+├── src/
+│   ├── assets/            # Images and files
+│   ├── components/        # React components
+│   │   ├── about/
+│   │   ├── contacts/
+│   │   ├── experience/
+│   │   ├── footer/
+│   │   └── header/
+│   │   └── myprojects/
+│   ├── App.jsx           # Main App component
+│   ├── index.js          # Entry point
+│   └── index.css         # Global styles
+├── Dockerfile            # Docker configuration
+├── nginx.conf           # Nginx configuration
+├── package.json         # Dependencies and scripts
+└── README.md           # This file
+```
+
+## Contact
+
+**Denice Unite**
+- **GitHub**: [dunite2](https://github.com/dunite2)
+- **Portfolio**: [Live Demo](https://dunite2.github.io/finalproj)
+
+---
+
+*This project was created as part of my Full Stack Web Development coursework, demonstrating proficiency in React, responsive design, Docker containerization, and modern web development practices.*
 
 ### Code Splitting
 

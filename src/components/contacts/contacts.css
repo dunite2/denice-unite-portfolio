@@ -50,7 +50,7 @@ textarea {
   background: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
-  color: var(--color-white);
+  color: #000000;
 }
 
 @media screen and (max-width: 1024px) {
@@ -60,7 +60,6 @@ textarea {
   }
 }
 
-/* ================ MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
   .contact__container {
     width: var(--container-width-sm);
