@@ -5,8 +5,19 @@ import ecommerceImg from '../../assets/e-commerce.png'
 import flaskImg from '../../assets/python flask.png'
 import qrGeneratorImg from '../../assets/flask qrgenerator.png'
 import cmsImg from '../../assets/background.jpg'
+import webgoatImg from '../../assets/webgoat.png'
+import reactImg from '../../assets/react.png'
+import githubImg from '../../assets/github.png'
+import jsImg from '../../assets/javascript.jpg'
 
 const data = [
+  {
+    id: 6,
+    image: webgoatImg,
+    title: 'OWASP WebGoat Coursework',
+    description: 'Completed hands-on security labs using OWASP WebGoat. Explored real-world vulnerabilities (XSS, SQL Injection, etc.) and earned a report card for successful completion.',
+    github: 'https://owasp.org/www-project-webgoat/'
+  },
   {
     id: 1,
     image: portfolioImg,
@@ -44,48 +55,77 @@ const data = [
   }
 ]
 
+const resources = [
+
+  {
+    title: 'React Documentation',
+    image: reactImg,
+    summary: 'React is a JavaScript library for building fast, reusable, and dynamic user interfaces, especially single-page applications.',
+    link: 'https://react.dev/'
+  },
+  {
+    title: 'JavaScript Info',
+    image: jsImg,
+    summary: 'JavaScript is a versatile, lightweight programming language used to make web pages interactive, dynamic, and functional on both the client and server side.',
+    link: 'https://javascript.info/'
+  },
+  {
+    title: 'GitHub',
+    image: githubImg,
+    summary: 'GitHub is a cloud-based platform for version control and collaboration that lets developers store, manage, and share code using Git.',
+    link: 'https://github.com/'
+  }
+];
+
 const Myprojects = () => {
   return (
-    <section id='myprojects'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+    <>
+      <section id='myprojects'>
+        <h5>My Recent Work</h5>
+        <h2>Portfolio</h2>
+        <div className="container portfolio__container">
+          {
+            data.map(({id, image, title, description, github, demo}) => {
+              return (
+                <article key={id} className='portfolio__item'>
+                  <div className="portfolio__item-image">
+                    <img src={image} alt={title} />
+                  </div>
+                  <h3>{title}</h3>
+                  <p className="portfolio__description">{description}</p>
+                  <div className="portfolio__item-cta">
+                    {github && (
+                      <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
+                    )}
+                    {demo && id === 1 && (
+                      <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
+                    )}
+                  </div>
+                </article>
+              )
+            })
+          }
+        </div>
+      </section>
 
-      <div className="container portfolio__container">
-        {
-          data.map(({id, image, title, description, github, demo}) => {
-            return (
-              <article key={id} className='portfolio__item'>
-                <div className="portfolio__item-image">
-                  <img src={image} alt={title} />
+      <section id='resources'>
+        <h2>Resources</h2>
+        <div className="container resources__container">
+          {
+            resources.map(({title, image, summary, link}, idx) => (
+              <article key={idx} className='resource__item'>
+                <div className="resource__item-image">
+                  <img src={image} alt={title} style={{width: '60px', height: '60px', objectFit: 'contain'}} />
                 </div>
                 <h3>{title}</h3>
-                <p className="portfolio__description">{description}</p>
-                <div className="portfolio__item-cta">
-                  {id === 1 ? (
-                    <>
-                      <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                      <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
-                    </>
-                  ) : id === 2 ? (
-                    <>
-                      <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                    </>
-                  ) : id === 3 ? (
-                    <>
-                      <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                    </>
-                  ) : id === 5 ? (
-                    <>
-                      <a href={github} className='btn' target='_blank' rel='noreferrer'>Github</a>
-                    </>
-                  ) : null}
-                </div>
+                <p className="resource__summary">{summary}</p>
+                <a href={link} className='btn' target='_blank' rel='noreferrer'>Visit</a>
               </article>
-            )
-          })
-        }
-      </div>
-    </section>
+            ))
+          }
+        </div>
+      </section>
+    </>
   )
 }
 

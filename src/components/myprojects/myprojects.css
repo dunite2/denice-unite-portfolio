@@ -1,3 +1,71 @@
+.resources__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.resource__item {
+  background: var(--color-bg-variant);
+  padding: 1.2rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.resource__item:hover {
+  border-color: var(--color-primary-variant);
+  background: transparent;
+}
+
+.resource__item-image {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  height: 200px;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-light);
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.resource__item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.resource__item h3 {
+  margin: 1.2rem 0 1rem;
+}
+
+.resource__summary {
+  margin-bottom: 1.5rem;
+  color: var(--color-light);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.resource__item-cta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .resources__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resources__container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

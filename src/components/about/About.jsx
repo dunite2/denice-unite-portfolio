@@ -22,7 +22,7 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Technical Skills</h5>
-              <small>React, PHP, JavaScript, Database Management, Python, HTML5, CSS, Tailwind CSS, SQL, Git, Github, Docker, OWASP, ZAP, Metasploit</small>
+              <small>React, PHP, JavaScript, Database Management, Python, HTML5, CSS, Tailwind CSS, SQL, Git, Github, Docker, OWASP, ZAP, Metasploit, WINSCP, Putty, MYSQL Manager, Debian, Kali, Mr.Robot, Kioptrix</small>
             </article>
 
             <article className='about__card'>

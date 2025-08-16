@@ -22,7 +22,7 @@ FROM nginx:alpine
 # Set the working directory as specified in requirements
 WORKDIR /unite_denice_final_site
 
-# Copy the build files from the previous stage to nginx html directory
+# Copy the build files from the previous stage to the required working directory
 COPY --from=build /app/build /unite_denice_final_site
 
 # Copy custom nginx configuration
