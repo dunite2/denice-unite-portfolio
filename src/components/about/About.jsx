@@ -15,7 +15,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>Security Analyst (Co-op) – Government of Manitoba
+              <small>Security Analyst (Co-op) – Government of Manitoba <br></br>
                 During my co-op, I supported enterprise cybersecurity operations by monitoring and investigating alerts across Azure AD, Microsoft Defender, IBM QRadar, Graylog, and Proofpoint. I managed identity security tasks such as MFA troubleshooting, risky user monitoring, and leaked credential response, while also producing executive-level reports in Power BI. My contributions included conducting risk assessments, collaborating with cross-functional teams, and assisting with awareness campaigns, ensuring consistent security coverage and improved organizational resilience.</small>
             </article>
 
