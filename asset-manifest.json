@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/denice-unite-portfolio/static/css/main.da9f0006.css",
-    "main.js": "/denice-unite-portfolio/static/js/main.a1f68f66.js",
+    "main.css": "/denice-unite-portfolio/static/css/main.752b93c9.css",
+    "main.js": "/denice-unite-portfolio/static/js/main.a651f0e9.js",
     "static/js/453.61759961.chunk.js": "/denice-unite-portfolio/static/js/453.61759961.chunk.js",
-    "static/media/Denice CV.png": "/denice-unite-portfolio/static/media/Denice CV.722ac5c3be3cf815bba9.png",
+    "static/media/Denice_Unite_CV_Updated.png": "/denice-unite-portfolio/static/media/Denice_Unite_CV_Updated.2f596b5f8358f57213e1.png",
     "static/media/e-commerce.png": "/denice-unite-portfolio/static/media/e-commerce.daa9eed11e0e5b4e2819.png",
     "static/media/portfolio.png": "/denice-unite-portfolio/static/media/portfolio.ac1c84374abe1af1197f.png",
     "static/media/flask qrgenerator.png": "/denice-unite-portfolio/static/media/flask qrgenerator.36fd2059beb4bb64efbe.png",
+    "static/media/react.png": "/denice-unite-portfolio/static/media/react.bafc2a1dcbb5c8d3aefc.png",
     "static/media/background.jpg": "/denice-unite-portfolio/static/media/background.4053bc44403e1b04225c.jpg",
     "static/media/ME.jpg": "/denice-unite-portfolio/static/media/ME.f2e469ea4637617f2610.jpg",
     "static/media/webgoat.png": "/denice-unite-portfolio/static/media/webgoat.7af625aafed8725c6970.png",
     "static/media/python flask.png": "/denice-unite-portfolio/static/media/python flask.de56019ad16f820c80fd.png",
+    "static/media/javascript.jpg": "/denice-unite-portfolio/static/media/javascript.fa74f3e479bba0c4dd22.jpg",
     "index.html": "/denice-unite-portfolio/index.html",
-    "main.da9f0006.css.map": "/denice-unite-portfolio/static/css/main.da9f0006.css.map",
-    "main.a1f68f66.js.map": "/denice-unite-portfolio/static/js/main.a1f68f66.js.map",
+    "main.752b93c9.css.map": "/denice-unite-portfolio/static/css/main.752b93c9.css.map",
+    "main.a651f0e9.js.map": "/denice-unite-portfolio/static/js/main.a651f0e9.js.map",
     "453.61759961.chunk.js.map": "/denice-unite-portfolio/static/js/453.61759961.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da9f0006.css",
-    "static/js/main.a1f68f66.js"
+    "static/css/main.752b93c9.css",
+    "static/js/main.a651f0e9.js"
   ]
 }
