@@ -43,17 +43,25 @@ Tools & Analytics
               <VscFolderLibrary className='about__icon'/>
               <h5>Coursework / Academic Projects</h5>
               <small>
-                AWS Cloud Foundations - In progress<br />
-                Cisco Packet Tracer<br />
-                COMPTIA IT Foundations
+                E‑Commerce Web Application - 
+              Built a full‑stack e‑commerce platform with product listings, cart management, and checkout functionality.
+              Tech Stack: Ruby on Rails, HTML5, Bootstrap, JavaScript
+              <br />
+              Book Club Content Management System -
+              Developed a PHP‑based CMS featuring a book gallery, events page, reviews, and user profile management.
+              Tech Stack: PHP, SQL, phpMyAdmin, HTML5, CSS
+              <br />
+            OWASP WebGoat Security Testing - 
+            Explored and exploited common web vulnerabilities in a controlled lab environment to understand flaws and mitigation strategies.
+            Tech Stack: OWASP WebGoat, OWASP ZAP, Kali Linux, PuTTY, WinSCP
               </small>
             </article>
           </div>
 
           <p>
-           Hi there! I’m Denice Unite — a Full Stack Web Development student with hands-on experience in technical support, front-end and back-end development, database management, and security tools like OWASP ZAP and Metasploit. 
-           I work with technologies such as React, PHP, and modern web stacks to build functional, user-focused applications. My background includes both customer-facing roles and technical problem-solving, giving me the ability to bridge communication between users and technology.
-            When I’m not coding, I’m learning new frameworks, exploring cloud development, or refining my skills to create efficient, seamless solutions.
+           Hi there! I’m Denice Unite — a Full Stack Web Development Graduate and Cybersecurity Analyst with hands-on experience in technical support, front-end and back-end development, database management, and enterprise security operations. 
+           I’ve worked with technologies such as React, PHP, and modern web stacks to build functional, user-focused applications, while also monitoring and investigating alerts across tools like IBM QRadar, Microsoft Defender, Graylog, and Proofpoint in a government environment. 
+            My background combines customer-facing roles with technical problem-solving, giving me the ability to bridge communication between users and technology. 
           </p>
 
           <a href="#contacts" className='btn btn-primary'>Let's Connect</a>
