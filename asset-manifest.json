@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/denice-unite-portfolio/static/css/main.752b93c9.css",
-    "main.js": "/denice-unite-portfolio/static/js/main.a651f0e9.js",
+    "main.js": "/denice-unite-portfolio/static/js/main.6e2bc76a.js",
     "static/js/453.61759961.chunk.js": "/denice-unite-portfolio/static/js/453.61759961.chunk.js",
     "static/media/Denice_Unite_CV_Updated.png": "/denice-unite-portfolio/static/media/Denice_Unite_CV_Updated.2f596b5f8358f57213e1.png",
     "static/media/e-commerce.png": "/denice-unite-portfolio/static/media/e-commerce.daa9eed11e0e5b4e2819.png",
@@ -15,11 +15,11 @@
     "static/media/javascript.jpg": "/denice-unite-portfolio/static/media/javascript.fa74f3e479bba0c4dd22.jpg",
     "index.html": "/denice-unite-portfolio/index.html",
     "main.752b93c9.css.map": "/denice-unite-portfolio/static/css/main.752b93c9.css.map",
-    "main.a651f0e9.js.map": "/denice-unite-portfolio/static/js/main.a651f0e9.js.map",
+    "main.6e2bc76a.js.map": "/denice-unite-portfolio/static/js/main.6e2bc76a.js.map",
     "453.61759961.chunk.js.map": "/denice-unite-portfolio/static/js/453.61759961.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.752b93c9.css",
-    "static/js/main.a651f0e9.js"
+    "static/js/main.6e2bc76a.js"
   ]
 }
