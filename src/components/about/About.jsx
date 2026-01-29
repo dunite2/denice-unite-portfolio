@@ -22,7 +22,21 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Technical Skills</h5>
-              <small>React, PHP, JavaScript, Database Management, Python, HTML5, CSS, Tailwind CSS, SQL, Git, Github, Docker, OWASP, ZAP, Metasploit, WINSCP, Putty, MYSQL Manager, Debian, Kali, Mr.Robot, Kioptrix</small>
+              <small>Programming & Web Development
+- React, PHP, JavaScript, Python, HTML5, CSS, Tailwind CSS, SQL
+- Database management, RESTful APIs
+Systems & Infrastructure
+- Windows Server, Active Directory, Azure AD, Microsoft 365
+- Docker, Git/GitHub, WINSCP, PuTTY
+- Linux (Debian, Kali), Virtualization concepts, Networking fundamentals
+Security & Testing
+- OWASP principles, ZAP (penetration testing), Metasploit
+- Security lab experience: Mr. Robot, Kioptrix
+- Identity management, MFA administration, incident response
+Tools & Analytics
+- PowerShell, Command Line
+- Wireshark (packet capture & analysis), Power BI (reporting & dashboards)
+</small>
             </article>
 
             <article className='about__card'>
